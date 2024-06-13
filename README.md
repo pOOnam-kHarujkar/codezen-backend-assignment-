@@ -58,7 +58,13 @@ This project is a Django application that includes CRUD operations for orders an
    ```bash
    python manage.py createsuperuser
 
-8. **Start the development server**
+8. **Running the Management Command :-** 
+To import products from an Excel file, run the following command:
+
+   ```bash
+   python manage.py import_products path/to/your/excel/file.xlsx
+
+9. **Start the development server**
 
  ```bash
 python manage.py runserver
